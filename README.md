@@ -15,6 +15,9 @@ https://render.com/docs/deploy-flask
 📌 remove app.run()
 📌 pip install unicorn or add gunicorn==20.1.0 to requirements.txt 
 📌 pip freeze > requirements.txt
-📌 
+
+# On Render site 
+📌 choose Region Frankfurt (EU Central)
+📌gunicorn < Python Name >:app
 
 
