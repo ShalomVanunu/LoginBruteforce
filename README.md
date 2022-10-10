@@ -7,7 +7,14 @@ https://loginbruteforce.onrender.com/
 
 this site loaded on https://render.com/ 
 
-the site is Flask environment
+the site coded in Flask environment
 and deploy as describe :
 https://render.com/docs/deploy-flask
+
+# Upload code on Github steps:
+📌 remove app.run()
+📌 pip install unicorn or add gunicorn==20.1.0 to requirements.txt 
+📌 pip freeze > requirements.txt
+📌 
+
 
